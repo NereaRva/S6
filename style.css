@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apart1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10% 0 2%;
+    background-color: rgb(247,247,247);
+}
+.topbar{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+.titlelogo img{
+    width: 170px;
+}
+.title{
+    color: rgb(0,149,75);
+}
+ul{
+    display: flex;
+    gap: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(176, 176, 176);
+}
+.apart1 li:hover a{
+    font-weight: bold;
+    color: black;
+    transition: all 200ms;
+}
+.apart2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    border: 1px solid rgb(176, 176, 176);
+}
+.list{
+    display: flex;
+    margin-right: 100px;
+}
+.list2 li:hover a{
+    font-weight: bold;
+    border-bottom: 3px solid rgb(105,180,0);
+    padding-bottom: 15px;
+    color: black;
+    transition: all 200ms;
+}
+.menu{
+    background-color: rgb(105,180,0);
+    width: 40px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+/*header*/
+main{
+    background-color: rgb(247,247,247);
+    width: 100%;
+}
+.main_select{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    
+}
+.font_color-green{
+   color: rgb(105,180,0);
+}
+.font_color-grey{
+    color: rgb(176, 176, 176);
+}
+.main_menu{
+    color: white;
+    display: flex;
+    gap: 20px;
+}
+.main_menu li{
+    background-color: rgb(105,180,0);
+    display: flex;
+    padding: 10px;
+    margin-left: 20px;
+}
+.main_menu ul li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.main_select_menu{
+    margin-left: 8%;
+}
+.main_ubicacion{
+    background-color: white;
+    width: 47%;
+}
+.main_ubicacion img{
+    width: 100%;
+}
+.precio_info{
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid rgb(105,180,0);
+    padding: 10px;
+}
+.font_color-green:hover{
+    font-weight: bold;
+    color: white;
+    transition: all 200ms;
+    cursor: pointer;
+}
+.info:hover{
+    background-color: rgb(105,180,0);
+}
+.ubicacion, .precio_info, .info{
+    margin: 20px;
+}
+.main_ubicacion-info{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2% 9%;
+    border-top: 1px solid gray;
+    padding-top: 1%;
+    gap: 50px;
+}
+.apart3{
+    background-color: white;
+    width: 80%;
+    margin: 1% 0 1% 9%;
+    padding: 1%;
+}
+.apart3 h3{
+    margin: 2% 0;
+}
+.apart4{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.apart4__icons{
+   color: rgb(176, 176, 176);
+   text-align: center;
+   margin-top: 5%;
+}
+.apart4__icons i{
+   color: rgb(105,180,0);
+   font-size: 35px;
+}
+.apart5{
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-top: 5%;
+}
+.apart5 a{
+    display: flex;
+    justify-content: center;  
+}
+.apart5 img{
+    width: 300px;  
+}
+.apart6{
+    display: flex;
+    justify-content: center;
+    gap: 14%; 
+    margin-top: 2%;
+}
+.apart6 ul{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.apart6 h4{
+    margin: 10% 0 10% 0;
+
+}
+.apart7{
+    display: flex;
+    
+}
+.apart7_hijo1{
+    width: 100%;
+    display: flex; 
+    gap: 10%;
+}
+.apart7_hijo1 img{
+    width: 40%;
+    
+}
+.apart8{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
